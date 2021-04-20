@@ -1,0 +1,223 @@
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;600;700&display=swap");
+@import url("https://fontshub.pro/font/web-download/5df66a6597904934c476edba/StagSans-Light");
+body {
+  background: #333;
+  color: #fff;
+}
+
+.main-heading {
+  color: #22b78e;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: "StagSans-Light", sans-serif;
+}
+
+#home-section {
+  background: url(../images/home.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 600px;
+}
+
+.logo {
+  margin-bottom: 50px;
+}
+
+.sub-head {
+  font-family: "StagSans-Light", sans-serif;
+  font-weight: 500 !important;
+}
+
+.bone-marrow {
+  background-image: linear-gradient(to right, #2ec4b8, #6078ea);
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: none;
+  font-weight: 500;
+}
+
+.display-4 {
+  font-weight: 600;
+  font-size: 35px;
+}
+
+.display-4 h3 {
+  font-weight: 400 !important;
+}
+
+#home-section .home-inner {
+  padding-top: 50px;
+}
+
+#home-section .card-form {
+  font-family: "Titillium Web", sans-serif;
+  color: #111;
+  background-color: #fff;
+}
+
+#home-section .card-form h3 {
+  font-weight: 700 !important;
+  margin-bottom: 10px;
+}
+
+textarea {
+  border-radius: 5px;
+  resize: none;
+}
+
+#doctor-section .column {
+  display: flex;
+  flex-direction: column;
+}
+
+#doctor-section .grad {
+  background: linear-gradient(to right, #2ec4b8, #6078ea);
+  padding: 10px;
+  width: 100px;
+  cursor: pointer;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+}
+
+.line {
+  height: 100%;
+  left: 45%;
+  top: 0;
+  margin: 10px;
+  background: #22b78e;
+  width: 10%;
+  height: 2px;
+  position: relative;
+}
+
+.text {
+  color: #1d5aa6;
+  font-family: "StagSans-Light", sans-serif;
+  font-weight: 600;
+  margin: 20px;
+  font-size: 22px;
+  letter-spacing: 1.76px;
+  line-height: 26px;
+  text-align: center;
+}
+
+.sub-text {
+  color: #1d5aa6;
+  font-family: "StagSans-Light", sans-serif;
+  font-size: 15px;
+  text-align: center;
+}
+
+.items {
+  background: #f4f4f4;
+  padding: 3rem;
+  text-align: center;
+  margin: 0.75rem;
+  flex: 1;
+}
+
+.empty {
+  background: #f8f9fa !important;
+}
+
+#home-section .fas,
+#create-section .fas {
+  color: #008ed6;
+  background: #fff;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.column {
+  display: flex;
+  flex-direction: row;
+}
+
+.column-right {
+  padding: 20px;
+}
+
+.column-left {
+  margin: 18px;
+}
+
+#warning-section .row {
+  display: flex;
+  flex-direction: row;
+}
+
+#warning-section .row-text {
+  display: flex;
+}
+
+#warning-section .row .icon {
+  padding: 1rem;
+  float: left;
+  display: inline-block;
+}
+
+#warning-section .row .icon-text {
+  display: inline-block;
+}
+
+.btn {
+  background: #dd5a6a;
+  float: left;
+  padding: 10px 40px;
+  color: #fff;
+}
+
+.accordion {
+  width: 90%;
+  max-width: 1000px;
+  margin: 2rem auto;
+}
+
+.accordion-item {
+  color: #1d5aa6;
+  margin: 1rem 0;
+  border-radius: 0.5rem;
+}
+
+.accordion-item-header {
+  display: flex;
+  justify-content: space-between;
+  font-size: 23px;
+  font-family: "StagSans-Light", sans-serif;
+  padding: 0.5rem 3rem 0.5rem 1rem;
+  min-height: 3.5rem;
+  line-height: 1.25rem;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  position: relative;
+  cursor: pointer;
+}
+
+.accordion-item-body {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
+.accordion-item-body-content {
+  padding: 1rem;
+  color: #000000;
+  line-height: 1.5rem;
+  border-top: 1px solid;
+  border-image: linear-gradient(to right, transparent, #34495e, transparent) 1;
+}
+
+.testonominal {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.testonominal .text,
+.sub-text {
+  margin: 0;
+  color: #000000;
+}
